@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scoresql",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Score identifiers and sql tokens for idempotent workflows.",
+  "bin": {
+    "scoresql": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scoresql.git"
+  },
+  "homepage": "https://theworker02.github.io/scoresql/",
+  "keywords": [
+    "score",
+    "sql",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
